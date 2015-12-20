@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "plugins/org.oasis-open.dita.v1_2/dtd/technicalContent/dtd/task.dtd">
+
+<task id = "navigation">
+	<title> 
+		Use float to create a horizontal menu 
+	</title>
+	<shortdesc> 
+		Create a horizontal menu with a list of hyperlinks.
+	</shortdesc>
+	<taskbody>
+		<steps>
+			<step>
+				<cmd> Within your HTML code, create the following div classes: </cmd>
+					<info>
+						<ul>
+							<li> container (insert after body element) </li>
+							<li> header (insert before h1 element and within h1 element) </li>
+							<li> left (insert before he first p element) </li>
+							<li> content (insert after first p) </li>
+							<li> footer (insert before second p element) </li>
+						</ul>
+					</info>
+			</step>
+			<step>
+				<cmd> Within your CSS code, set the desired value for the following attributes for the classes:  </cmd>
+					<info>
+						<ul>
+							<li> div.container - width, margin, border, line-height </li>
+							<li> div.header, div.footer - padding, color, background-color, clear </li>
+							<li> h1.header - padding, margin </li>
+							<li> div.left - float, width, margin, padding </li>
+							<li> div.content - margin-left, border-left, padding </li>
+						</ul>
+					</info>
+			</step>
+		</steps>
+	</taskbody>
+</task>
