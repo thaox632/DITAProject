@@ -12,24 +12,27 @@
 		<prereq> You will need an HTML code linked to a CSS file. </prereq>
 		<steps>
 			<step>
-				<cmd> Build your navigation bar from a standard HTML list. </cmd>
+				<cmd> Add a div around the image and caption. </cmd>
 			</step>
 			<step>
-				<cmd> Create a class in your first link as “active”. </cmd>
+				<cmd> Apply "float:right" to the div within CSS. </cmd>
 			</step>
 			<step>
-				<cmd> Use the following suggested values when defining the listed attributes for the ul element in CSS: </cmd>
+				<cmd> Continuing within css, add the following values to the div: </cmd>
 					<info>
 						<ul>
-							<li> list-style-type: none </li>
-							<li> margin: 0 </li>
-							<li> padding: 0 </li>
-							<li> overflow: hidden </li>
+							<li> width </li>
+							<li> margin </li>
+							<li> padding </li>
+							<li> border </li>
 						</ul>
 					</info>
 			</step>
 			<step>
-				<cmd> Use a value of "left" for the float property within the li element in CSS. </cmd>
+				<cmd> Add a border to the image. </cmd>
+			</step>
+			<step>
+				<cmd> Remove margin-top on the paragraph. </cmd>
 			</step>
 		</steps>
 	</taskbody>
