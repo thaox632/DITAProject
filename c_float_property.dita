@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "plugins/org.oasis-open.dita.v1_2/dtd/technicalContent/dtd/concept.dtd">
+
+<concept id="float">
+<title>Understanding the float property</title>
+<shortdesc>
+	A brief explanation of the float property.
+</shortdesc>
+    <conbody>
+		<p> “Float” is a CSS property used for positioning. This concept is similar to everyday print literature, where photos and graphic elements are aligned to one side, surrounded by context flowing around the element. The float property is mainly used for wrapping text around images and to create an entire web layout. It can accept four values: the most commonly used left and right, none, and inherit. Although the float property does not require the application of any other property to function, it should have a set width, ensuring that the float behaves correctly and it helps avoid issues in browsers. </p>
+	 </conbody>
+</concept>

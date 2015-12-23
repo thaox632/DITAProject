@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "plugins/org.oasis-open.dita.v1_2/dtd/technicalContent/dtd/reference.dtd">
+
+<reference id="behaviors">
+	<title> Floated Elements </title>
+		<shortdesc>
+			Behaviors of floated elements according to CSS2 specifications.
+		</shortdesc>
+	<refbody>
+		<section>
+			<ul>
+				<li> A left-floated box will shift to the left until its leftmost margin edge touches either the edge of the containing block, or the edge of another floated box. </li>
+				<li> If the size of the floated box exceeds the available horizontal space, the floated box will be shifted down. </li>
+				<li> Non-positioned, non-floated, block-level elements act as if the floated element is not there, since the floated element is out of flow in relation to other block elements. </li>
+				<li> Margins of floated boxes do not collapse with margins of adjacent boxes. </li>
+				<li> The root element html cannot be floated. </li> 
+				<li> An inline element that is floated is converted to a block-level element. </li>
+			</ul>
+		</section>
+	</refbody>
+</reference>

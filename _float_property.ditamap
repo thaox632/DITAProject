@@ -8,4 +8,6 @@
 	<topicref href="t_homepage.dita"></topicref>
 	<topicref href="t_navigation.dita"></topicref>
 	<topicref href="t_image.dita"></topicref>
+	<topicref href="c_float_property.dita"></topicref>
+	<topicref href="r_behaviors.dita"></topicref>
 </map>
